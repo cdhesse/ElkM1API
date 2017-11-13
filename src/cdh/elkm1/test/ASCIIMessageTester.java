@@ -16,28 +16,28 @@
  */
 package cdh.elkm1.test;
 
-import com.github.elkm1api.messages.Message;
-import com.github.elkm1api.messages.types.AlarmByZoneReportData;
-import com.github.elkm1api.messages.types.AlarmReporting;
-import com.github.elkm1api.messages.types.AlarmReportingTest;
-import com.github.elkm1api.messages.types.AudioDataReply;
-import com.github.elkm1api.messages.types.ElkRPConnected;
-import com.github.elkm1api.messages.types.ReplyM1VersionNumber;
-import com.github.elkm1api.messages.types.ReplyRealTimeClockData;
-import com.github.elkm1api.messages.types.KeypadKeyChangeUpdate;
-import com.github.elkm1api.messages.types.OutgoingAudioCommand;
-import com.github.elkm1api.messages.types.OutputChangeUpdate;
-import com.github.elkm1api.messages.types.ReplyASCIIStringTextDescriptions;
-import com.github.elkm1api.messages.types.ReplyCustomValue;
-import com.github.elkm1api.messages.types.ReplyKeypadAreas;
-import com.github.elkm1api.messages.types.ReplyKeypadFunctionKeyPress;
-import com.github.elkm1api.messages.types.ReplyProgrammingInsteonLightingData;
-import com.github.elkm1api.messages.types.ReplyReadInsteonLightingDeviceData;
-import com.github.elkm1api.messages.types.ResetEthernetModule;
-import com.github.elkm1api.messages.types.SendEntryExitData;
-import com.github.elkm1api.messages.types.ZoneAnalogVoltageReply;
-import com.github.elkm1api.messages.types.ZoneChangeUpdateReport;
-import com.github.elkm1api.messages.types.ZoneDefinitionData;
+import com.elkm1api.messages.Message;
+import com.elkm1api.messages.types.AlarmByZoneReportData;
+import com.elkm1api.messages.types.AlarmReporting;
+import com.elkm1api.messages.types.AlarmReportingTest;
+import com.elkm1api.messages.types.AudioDataReply;
+import com.elkm1api.messages.types.ElkRPConnected;
+import com.elkm1api.messages.types.KeypadKeyChangeUpdate;
+import com.elkm1api.messages.types.OutgoingAudioCommand;
+import com.elkm1api.messages.types.OutputChangeUpdate;
+import com.elkm1api.messages.types.ReplyASCIIStringTextDescriptions;
+import com.elkm1api.messages.types.ReplyCustomValue;
+import com.elkm1api.messages.types.ReplyKeypadAreas;
+import com.elkm1api.messages.types.ReplyKeypadFunctionKeyPress;
+import com.elkm1api.messages.types.ReplyM1VersionNumber;
+import com.elkm1api.messages.types.ReplyProgrammingInsteonLightingData;
+import com.elkm1api.messages.types.ReplyReadInsteonLightingDeviceData;
+import com.elkm1api.messages.types.ReplyRealTimeClockData;
+import com.elkm1api.messages.types.ResetEthernetModule;
+import com.elkm1api.messages.types.SendEntryExitData;
+import com.elkm1api.messages.types.ZoneAnalogVoltageReply;
+import com.elkm1api.messages.types.ZoneChangeUpdateReport;
+import com.elkm1api.messages.types.ZoneDefinitionData;
 
 /**
  * These messages are the samples which are documented in the ELKM1XEP API doc

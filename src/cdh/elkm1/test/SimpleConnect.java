@@ -18,8 +18,8 @@ package cdh.elkm1.test;
 
 import java.io.IOException;
 
-import com.github.elkm1api.ElkM1Controller;
-import com.github.elkm1api.messages.Message;
+import com.elkm1api.ElkM1Controller;
+import com.elkm1api.messages.Message;
 
 public class SimpleConnect {
 

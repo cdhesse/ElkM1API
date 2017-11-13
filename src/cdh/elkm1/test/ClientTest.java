@@ -22,8 +22,8 @@ import javax.net.ssl.HandshakeCompletedEvent;
 import javax.net.ssl.HandshakeCompletedListener;
 import javax.net.ssl.SSLSession;
 
-import com.github.elkm1api.ElkM1Controller;
-import com.github.elkm1api.messages.Message;
+import com.elkm1api.ElkM1Controller;
+import com.elkm1api.messages.Message;
 
 public class ClientTest implements HandshakeCompletedListener, Runnable {
 
